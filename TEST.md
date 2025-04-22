@@ -33,7 +33,7 @@ If the user tries to submit without filling out all of the fields, they are info
 
 ![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/RequiredFields.png "All Empty")
 
-IF they only miss one field:
+<br>If they only miss one field:
 ![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/RequiredFields2.png "Phone Empty")
 
 ### Thank you Page

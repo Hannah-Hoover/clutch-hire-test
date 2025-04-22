@@ -26,7 +26,7 @@ When the website is run, the first thing that is seen is the landing page below,
 ### Form Filled Out
 The user can input their informartion into the contact form:
 
-![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/LandingPage.png "Form Filled Out")
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/FormFilled.png "Form Filled Out")
 
 ### Error Handling
 If the user tries to submit without filling out all of the fields, they are informed that they must fill out the fields:

@@ -21,20 +21,30 @@ npm run serve
 ### Landing Page
 When the website is run, the first thing that is seen is the landing page below, which has a form for the user to fll out:
 
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/LandingPage.png "Landing Page")
 
 ### Form Filled Out
 The user can input their informartion into the contact form:
 
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/LandingPage.png "Form Filled Out")
+
 ### Error Handling
 If the user tries to submit without filling out all of the fields, they are informed that they must fill out the fields:
+
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/RequiredFields.png "All Empty")
+
+IF they only miss one field:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/RequiredFields2.png "Phone Empty")
 
 ### Thank you Page
 Once they submit with the forms filled out, a thank you page is present for 5 seconds:
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/ThankYou.png "Thank You Message")
 
 ### Return to form
 After 5 seconds, they are returned to an empty form:
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/LandingPage.png "Return To Form")
 
 ## Application Flow
 

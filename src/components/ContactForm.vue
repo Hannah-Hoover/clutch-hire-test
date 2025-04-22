@@ -248,10 +248,6 @@ export default defineComponent({
     width: 131px;
     height: 34.83px;
     border-radius: 4px;
-    padding-top: 10.22px;
-    padding-bottom: 8.61px;
-    padding-left: 37.5px;
-    padding-right: 37.59px;
     gap: 5.38px;
     color: #fff;
     font-family: "ABeeZee";

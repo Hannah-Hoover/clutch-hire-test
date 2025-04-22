@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for a Vue.js application as part of the Clutch 2025 Hiring Test. The application should display a form for users to input their details, submits the form data to an external API, and then shows a thank you message for 5 seconds before resetting for the next submission.
+This repository contains my code for the clutch 2025 hiring test with images.
 
 ## Project Setup
 
@@ -18,44 +18,33 @@ Launch the development server with hot-reloading:
 npm run serve
 ```
 
-For a complete list of available commands, refer to the [package.json](./package.json) file.
+### Landing Page
+When the website is run, the first thing that is seen is the landing page below, which has a form for the user to fll out:
 
-## API Integration
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/LandingPage.png "Landing Page")
 
-The application integrates with an external API to handle form submissions. The API endpoint requires an API key, which should be provided in the endpoint URL. Replace the placeholder `<YOUR_API_KEY_HERE>` with your actual API key, as provided via email.
+### Form Filled Out
+The user can input their informartion into the contact form:
 
-### API Endpoint
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/FormFilled.png "Form Filled Out")
 
-```text
-https://dev-api-api.hiring-test.experientialpreview.com/api/lead/<YOUR_API_KEY_HERE>
-```
+### Error Handling
+If the user tries to submit without filling out all of the fields, they are informed that they must fill out the fields:
 
-### Example Request
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/RequiredFields.png "All Empty")
 
-Below is an example of how to submit the form data using cURL:
+<br>If they only miss one field:<br>
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/RequiredFields2.png "Phone Empty")
 
-```bash
-curl --location 'https://dev-api-api.hiring-test.experientialpreview.com/api/lead/<YOUR_API_KEY_HERE>' \
---data-raw '{
-    "first": "Test",
-    "last": "Test",
-    "company": "Test",
-    "phone": "3135555555",
-    "email": "test@test.test"
-}'
-```
+### Thank you Page
+Once they submit with the forms filled out, a thank you page is present for 5 seconds:
 
-### Request Parameters
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/ThankYou.png "Thank You Message")
 
-| Field   | Type   | Description          | Example          |
-| ------- | ------ | -------------------- | ---------------- |
-| first   | string | User's first name    | "Test"           |
-| last    | string | User's last name     | "Test"           |
-| company | string | User's company name  | "Test"           |
-| phone   | string | User's phone number  | "3135555555"     |
-| email   | string | User's email address | "test@test.test" |
+### Return to form
+After 5 seconds, they are returned to an empty form:
 
-Replace the sample data with actual user input when making a submission. [You can use this tool to view data that has been submitted.](https://dev-fe.hiring-test.experientialpreview.com/)
+![alt text](https://github.com/Hannah-Hoover/clutch-hire-test/blob/prod/images/LandingPage.png "Return To Form")
 
 ## Application Flow
 
@@ -63,3 +52,4 @@ Replace the sample data with actual user input when making a submission. [You ca
 2. **Submit Data:** On submission, the form data is sent to the API endpoint using the provided API key.
 3. **Thank You Message:** A thank you message is displayed for 5 seconds after submission.
 4. **Repeat Process:** The form resets for the next user submission.
+
